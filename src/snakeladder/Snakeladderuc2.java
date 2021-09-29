@@ -1,16 +1,16 @@
 package snakeladder;
 
-import java.util.Random;
+
 
 public class Snakeladderuc2 {
 
 	public static void main(String[] args) {
-	Random dice = new Random();
-	int number;
-	for(int counter=1; counter<=10; counter++) {
-		number = 1+dice.nextInt(6);
-		System.out.println(number + "");
-	}
+	
+		System.out.println("Welcome to snake and ladder game:");
+		int StartPosition = 0;
+		System.out.println("The player position is" +StartPosition);
+		double diceno = Math.floor((Math.random() *10) %6) + 1;
+		System.out.println("The Dice number is "+diceno);
 		
 	}
 
